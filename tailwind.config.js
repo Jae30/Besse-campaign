@@ -4,9 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        carolina: "#4B9CD3",
         navy: "#0a1f44",
         gold: "#f4b41a",
-        cream: "#fdfaf3",
+        cream: "#f5f7fa",
       },
       fontFamily: {
         sans: ["Inter", "system-ui", "sans-serif"],

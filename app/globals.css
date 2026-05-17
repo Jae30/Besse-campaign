@@ -3,10 +3,32 @@
 @tailwind utilities;
 
 html { scroll-behavior: smooth; }
-body { @apply bg-cream text-navy font-sans antialiased; }
+body { @apply bg-cream text-carolina font-sans antialiased; }
 
 .btn-primary { @apply inline-block bg-gold text-navy font-bold px-8 py-4 rounded-md hover:brightness-95 transition; }
-.btn-secondary { @apply inline-block bg-navy text-white font-bold px-8 py-4 rounded-md hover:opacity-90 transition; }
-.btn-outline { @apply inline-block border-2 border-navy text-navy font-bold px-6 py-3 rounded-md hover:bg-navy hover:text-white transition; }
+.btn-secondary { @apply inline-block bg-carolina text-white font-bold px-8 py-4 rounded-md hover:opacity-90 transition; }
+.btn-outline { @apply inline-block border-2 border-carolina text-carolina font-bold px-6 py-3 rounded-md hover:bg-carolina hover:text-white transition; }
 .section { @apply px-6 md:px-12 py-20 max-w-6xl mx-auto; }
 .h-section { @apply text-4xl md:text-5xl font-extrabold tracking-tight; }
+
+/* gold text shadow for contrast */
+.text-gold { text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15), 0 2px 8px rgba(0, 0, 0, 0.08); }
+
+/* hide scrollbar but keep scroll */
+.hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+
+/* placeholder cards when photo not yet loaded */
+.placeholder-card { background: linear-gradient(135deg, #e8e2d4 0%, #d4cfc3 100%); }
+.placeholder-card + .placeholder-overlay,
+div:not(.placeholder-card) > .placeholder-overlay { opacity: 0; }
+.placeholder-card > .placeholder-overlay { opacity: 1; }
+
+/* store placeholder */
+.store-placeholder { background: linear-gradient(135deg, #e0e8f0 0%, #cdd8e4 100%); }
+
+/* photo enhancement for carousel images */
+.photo-enhance img {
+  filter: brightness(1.08) contrast(1.12) saturate(1.1);
+  image-rendering: auto;
+}

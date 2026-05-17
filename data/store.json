@@ -1,0 +1,11 @@
+[
+  {
+    "id": "tee-carolina",
+    "name": "Besse for VI Campaign Tee",
+    "description": "Official campaign t-shirt. Wear your support and show the community you stand with Besse.",
+    "image": "/store/tee-carolina.jpg",
+    "sizes": ["S", "M", "L", "XL", "2XL", "3XL"],
+    "minDonation": 30,
+    "tag": "FREE with $30+ donation"
+  }
+]
