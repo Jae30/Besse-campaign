@@ -43,7 +43,7 @@ export default function PhotoCarousel() {
   return (
     <section className="py-20 bg-white overflow-hidden">
       <div className="max-w-6xl mx-auto px-6 md:px-12">
-        <h2 className="h-section text-center">Building a Better Future for Our Youth Since 2009</h2>
+        <h2 className="h-section text-center">Building a Better Future for Our Youth Since 2006</h2>
 
         {/* carousel wrapper */}
         <div className="relative mt-12">
