@@ -54,7 +54,7 @@ export default function Home() {
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="h-section">A Plan Rooted in Community</h2>
             <p className="mt-4 text-lg opacity-90">
-              This isn't theory. This is a plan built from 15 years of real work, real relationships, and real results in our community.
+              This isn't theory. This is a plan built from 30+ years of real work, real relationships, and real results in our community.
             </p>
           </div>
           <div className="mt-14 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -73,7 +73,7 @@ export default function Home() {
         <h2 className="h-section">Proven Leadership. Real Impact.</h2>
         <ul className="mt-10 grid md:grid-cols-2 gap-6 max-w-3xl mx-auto text-left">
           {[
-            "15+ years serving the Virgin Islands community",
+            "Over 30+ years serving the Virgin Islands community",
             "Hundreds of youth mentored through sports and life skills programs",
             "Multiple generations positively impacted",
             "Trusted leader with deep community roots",
