@@ -9,7 +9,7 @@ export default function About() {
           A Lifetime of Service to the Virgin Islands
         </h1>
         <div className="mt-10 space-y-6 text-lg leading-relaxed">
-          <p>Jose “Besse” Gonzalez isn’t new to serving this community—he’s been doing it for over 15 years.</p>
+          <p>Jose “Besse” Gonzalez isn’t new to serving this community—he’s been doing it for over 30+ years.</p>
           <p>As the founder of a youth-focused nonprofit, Besse has dedicated his life to creating opportunities for young people across the Virgin Islands. Through sports, mentorship, and life skills development, his work has helped shape confident, disciplined, and motivated individuals who carry those lessons into adulthood.</p>
           <p className="font-bold">His impact isn’t measured in promises—it’s measured in people.</p>
           <p>Generations of young Virgin Islanders have come through his programs, gaining not just skills, but direction, purpose, and belief in themselves.</p>
