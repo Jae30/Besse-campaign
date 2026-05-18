@@ -19,7 +19,6 @@ const MEDIA = [
   { src: "/photos/14.jpg", type: "image" },
   { src: "/photos/15.jpg", type: "image" },
   { src: "/photos/16.jpg", type: "image" },
-  { src: "/photos/17.jpg", type: "image" },
 ];
 
 export default function PhotoCarousel() {
