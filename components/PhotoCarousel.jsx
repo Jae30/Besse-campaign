@@ -5,17 +5,21 @@ import { useRef, useState, useEffect } from "react";
 const MEDIA = [
   { src: "/photos/1.jpg", type: "image" },
   { src: "/photos/2.jpg", type: "image" },
+  { src: "/photos/3.jpg", type: "image" },
   { src: "/photos/4.jpg", type: "image" },
-  { src: "/photos/5.mp4", type: "video" },
-  { src: "/photos/6.jpg", type: "image" },
+  { src: "/photos/5.jpg", type: "image" },
+  { src: "/photos/6.mp4", type: "video" },
   { src: "/photos/7.jpg", type: "image" },
   { src: "/photos/8.jpg", type: "image" },
   { src: "/photos/9.jpg", type: "image" },
   { src: "/photos/10.jpg", type: "image" },
+  { src: "/photos/11.jpg", type: "image" },
   { src: "/photos/12.jpg", type: "image" },
   { src: "/photos/13.jpg", type: "image" },
   { src: "/photos/14.jpg", type: "image" },
   { src: "/photos/15.jpg", type: "image" },
+  { src: "/photos/16.jpg", type: "image" },
+  { src: "/photos/17.jpg", type: "image" },
 ];
 
 export default function PhotoCarousel() {
