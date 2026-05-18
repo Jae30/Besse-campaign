@@ -114,19 +114,23 @@ export default function Home() {
         <div className="section max-w-2xl text-center">
           <h2 className="h-section">Join the Movement</h2>
           <p className="mt-4 text-lg opacity-90">Stay connected. Get updates. Be part of something bigger.</p>
-          <form className="mt-8 flex flex-col gap-4">
+          <form className="mt-8 flex flex-col gap-4" action="https://formspree.io/f/info@josebessegonzalez.com" method="POST">
             <input
               type="text"
+              name="name"
               placeholder="Name"
               className="w-full px-5 py-4 rounded-md border border-navy/20 bg-white"
               required
             />
             <input
               type="email"
+              name="email"
               placeholder="Email"
               className="w-full px-5 py-4 rounded-md border border-navy/20 bg-white"
               required
             />
+            <input type="hidden" name="_subject" value="New Campaign Signup!" />
+            <input type="hidden" name="_next" value="https://josebessegonzalez.com/#join" />
             <button type="submit" className="btn-primary">Sign Me Up</button>
           </form>
         </div>
