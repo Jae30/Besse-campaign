@@ -114,7 +114,9 @@ export default function Home() {
         <div className="section max-w-2xl text-center">
           <h2 className="h-section">Join the Movement</h2>
           <p className="mt-4 text-lg opacity-90">Stay connected. Get updates. Be part of something bigger.</p>
-          <form className="mt-8 flex flex-col gap-4" action="https://formspree.io/f/info@josebessegonzalez.com" method="POST">
+          <form name="campaign-signups" className="mt-8 flex flex-col gap-4" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="campaign-signups" />
+            <p className="hidden"><label>Don't fill this out: <input name="bot-field" /></label></p>
             <input
               type="text"
               name="name"
@@ -129,8 +131,6 @@ export default function Home() {
               className="w-full px-5 py-4 rounded-md border border-navy/20 bg-white"
               required
             />
-            <input type="hidden" name="_subject" value="New Campaign Signup!" />
-            <input type="hidden" name="_next" value="https://josebessegonzalez.com/#join" />
             <button type="submit" className="btn-primary">Sign Me Up</button>
           </form>
         </div>
